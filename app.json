@@ -10,14 +10,17 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.vaibhavskillminds.key"
+      "bundleIdentifier": "com.vaibhavskillminds.key",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "googleServicesFile": "./google-services.json",
+      "edgeToEdgeEnabled": true,
+      "package": "com.vaibhavskillminds.key"
     },
     "web": {
       "bundler": "metro",
@@ -43,8 +46,8 @@
           }
         }
       ],
-      "react-native-firebase/app",
-      "react-native-firebase/auth"
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
     ],
     "experiments": {
       "typedRoutes": true

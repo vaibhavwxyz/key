@@ -31,6 +31,12 @@
           <string>com.vaibhavskillminds.key</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.1032120105647-vlsmaoj59g8q730mvv19mdq2milk16ri</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>
