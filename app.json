@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vaibhavskillminds.key"
     },
     "android": {
       "adaptiveIcon": {
@@ -33,7 +34,17 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "react-native-firebase/app",
+      "react-native-firebase/auth"
     ],
     "experiments": {
       "typedRoutes": true
